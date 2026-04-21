@@ -1,0 +1,214 @@
+{
+  "agents": [
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "description": "OpenCode AI CLI assistant",
+      "config_path": "~/.config/opencode/opencode.json",
+      "model_field": "provider",
+      "supports_multiple": true,
+      "model_format": "opencode",
+      "exists": true
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "description": "AI pair programmer in terminal",
+      "config_path": "~/.aider.conf.yml",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "aider",
+      "exists": true
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "description": "Anthropic's Claude Code CLI",
+      "config_path": "~/.claude/settings.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "claude",
+      "exists": true
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "description": "Open source AI agent framework",
+      "config_path": "~/.openclaw/config.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "openclaw",
+      "exists": false
+    },
+    {
+      "id": "pi",
+      "name": "PI",
+      "description": "PI coding agent",
+      "config_path": "~/.pi/config.json",
+      "model_field": "default_model",
+      "supports_multiple": false,
+      "model_format": "pi",
+      "exists": true
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "description": "Custom coding agent framework",
+      "config_path": "~/.hermes/config.yaml",
+      "model_field": "models",
+      "supports_multiple": true,
+      "model_format": "hermes",
+      "exists": true
+    },
+    {
+      "id": "openai-codex",
+      "name": "OpenAI Codex",
+      "description": "OpenAI agent-native CLI",
+      "config_path": "~/.openai/codex.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "openai",
+      "exists": false
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "description": "Google's Gemini CLI agent",
+      "config_path": "~/.config/google/gemini.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "gemini",
+      "exists": false
+    },
+    {
+      "id": "gh-copilot",
+      "name": "GitHub Copilot CLI",
+      "description": "GitHub Copilot CLI extension",
+      "config_path": "~/.config/gh/copilot.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "copilot",
+      "exists": false
+    },
+    {
+      "id": "amazon-q",
+      "name": "Amazon Q Developer",
+      "description": "AWS Q Developer CLI",
+      "config_path": "~/.aws/q-developer.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "amazon-q",
+      "exists": false
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "description": "CLI-driven agentic power tool",
+      "config_path": "~/.config/cline/settings.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "cline",
+      "exists": false
+    },
+    {
+      "id": "goose",
+      "name": "Goose",
+      "description": "Block's open-source agent with MCP",
+      "config_path": "~/.config/goose/config.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "goose",
+      "exists": false
+    },
+    {
+      "id": "mentat",
+      "name": "Mentat",
+      "description": "Open-source multi-file edit agent",
+      "config_path": "~/.mentat/config.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "mentat",
+      "exists": false
+    },
+    {
+      "id": "augment",
+      "name": "Augment CLI",
+      "description": "Deep context indexing agent",
+      "config_path": "~/.config/augment/config.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "augment",
+      "exists": false
+    },
+    {
+      "id": "amp",
+      "name": "Amp",
+      "description": "Sourcegraph's Deep Mode research agent",
+      "config_path": "~/.config/amp/config.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "amp",
+      "exists": false
+    },
+    {
+      "id": "droid",
+      "name": "Droid",
+      "description": "Factory's high-autonomy task agent",
+      "config_path": "~/.config/droid/config.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "droid",
+      "exists": false
+    },
+    {
+      "id": "warp-ai",
+      "name": "Warp AI",
+      "description": "Warp terminal agentic layer",
+      "config_path": "~/.config/warp/ai.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "warp",
+      "exists": false
+    },
+    {
+      "id": "crush",
+      "name": "Crush",
+      "description": "Charm ecosystem modern agent",
+      "config_path": "~/.config/crush/config.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "crush",
+      "exists": false
+    },
+    {
+      "id": "kilo-code",
+      "name": "Kilo Code",
+      "description": "Memory Bank architectural tracking agent",
+      "config_path": "~/.config/kilo/config.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "kilo",
+      "exists": false
+    },
+    {
+      "id": "zencoder",
+      "name": "Zencoder",
+      "description": "Lightweight rapid refactor agent",
+      "config_path": "~/.config/zencoder/config.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "zencoder",
+      "exists": false
+    },
+    {
+      "id": "junie",
+      "name": "JetBrains Junie",
+      "description": "JetBrains AI suite CLI component",
+      "config_path": "~/.config/jetbrains/junie.json",
+      "model_field": "model",
+      "supports_multiple": false,
+      "model_format": "junie",
+      "exists": false
+    }
+  ]
+}

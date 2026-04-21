@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Get the absolute path of the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
+
+# Move to the project directory so 'uv' finds the correct pyproject.toml
+cd "$SCRIPT_DIR" || exit 1
+
+# Check if uv is installed
+if ! command -v uv &> /dev/null
+then
+    echo "Error: 'uv' is not installed. Please install it only if you are working in the project directory (https://github.com/astral-sh/uv)."
+    exit 1
+fi
+
+# Run the command using uv run
+# Using 'exec' replaces the shell process with the uv process
+exec uv run llmc "$@"
