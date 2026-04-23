@@ -1,7 +1,7 @@
 [project]
 name = "llmc"
 version = "0.1.0"
-description = "Add your description here"
+description = "A lightweight tool for managing LLM configurations and synchronizing model preferences across AI coding agents."
 readme = "README.md"
 authors = [
     { name = "Shawn", email = "shawn@shawngrover.ca" }
@@ -22,15 +22,13 @@ dev = [
     "ruff>=0.1.0",
 ]
 
+[project.urls]
+homepage = "https://github.com/grovercoder/llmc"
+documentation = "https://github.com/grovercoder/llmc/tree/main/docs"
+
 [build-system]
 requires = ["uv_build>=0.10.8,<0.11.0"]
 build-backend = "uv_build"
-
-[dependency-groups]
-dev = [
-    "pytest>=9.0.3",
-    "ruff>=0.15.11",
-]
 
 [project.scripts]
 llmc = "llmc.cli:app"

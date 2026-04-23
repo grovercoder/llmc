@@ -2,6 +2,7 @@ import os
 import re
 import requests
 import shutil
+import sys
 from pathlib import Path
 import typer
 from rich.console import Console
@@ -31,7 +32,7 @@ def ensure_config_files():
             if src.exists():
                 shutil.copy(src, dest)
 
-app = typer.Typer()
+app = typer.Typer(no_args_is_help=True)
 console = Console()
 
 providers_app = typer.Typer()
@@ -862,6 +863,5 @@ def candidates(
 
 
 if __name__ == "__main__":
-
     ensure_config_files()
     app()
