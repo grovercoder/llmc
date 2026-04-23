@@ -1,6 +1,6 @@
 # LLMC Roadmap
 
-This document outlines the planned future development for LLMC (LLM Model Controller). The roadmap is subject to change based on community feedback, contributor availability, and evolving needs in the AI tooling landscape.
+This document outlines the planned future development for LLMC (LLM Chooser). The roadmap is subject to change based on community feedback, contributor availability, and evolving needs in the AI tooling landscape.
 
 ## Near-Term Goals (Next 1-3 Months)
 

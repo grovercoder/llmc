@@ -1,6 +1,6 @@
-# LLMC (LLM Model Controller)
+# LLMC (LLM Chooser)
 
-LLMC (LLM Model Controller) is a powerful, lightweight, and extensible orchestration tool for Large Language Model (LLM) configuration management. It enables developers to decouple AI model preferences from individual tools, storing them in a standardized, vendor-agnostic format. By maintaining a single source of truth for your preferred models, LLMC allows you to seamlessly synchronize configurations across a wide range of AI coding agents and providers—such as Aider, Claude Code, and PI—streamlining your AI-driven development workflow.
+LLMC (LLM Chooser) is a powerful, lightweight, and extensible orchestration tool for Large Language Model (LLM) configuration management. It enables developers to decouple AI model preferences from individual tools, storing them in a standardized, vendor-agnostic format. By maintaining a single source of truth for your preferred models, LLMC allows you to seamlessly synchronize configurations across a wide range of AI coding agents and providers—such as Aider, Claude Code, and PI—streamlining your AI-driven development workflow.
 
 ## 🚀 Features
 

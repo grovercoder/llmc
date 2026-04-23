@@ -1,6 +1,6 @@
 # LLMC Overview
 
-LLMC (LLM Model Controller) is a CLI tool designed to manage AI model configurations centrally and synchronize them with various coding agents. It decouples model preferences from individual tools, providing a single source of truth for AI model settings.
+LLMC (LLM Chooser) is a CLI tool designed to manage AI model configurations centrally and synchronize them with various coding agents. It decouples model preferences from individual tools, providing a single source of truth for AI model settings.
 
 ## Core Concepts
 

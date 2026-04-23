@@ -1,6 +1,6 @@
 # LLMC Documentation
 
-Welcome to the LLMC (LLM Model Controller) documentation. This guide explains the data structures, concepts, and usage of LLMC.
+Welcome to the LLMC (LLM Chooser) documentation. This guide explains the data structures, concepts, and usage of LLMC.
 
 ## Documentation Overview
 
